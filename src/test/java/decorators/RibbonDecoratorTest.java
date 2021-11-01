@@ -10,6 +10,7 @@ class RibbonDecoratorTest {
     @Test
     void getPrice() {
         Item bucket = new FlowerBucket();
+        bucket = new RibbonDecorator(bucket);
         assertEquals(40, bucket.getPrice());
     }
 }

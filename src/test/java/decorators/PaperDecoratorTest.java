@@ -10,6 +10,7 @@ class PaperDecoratorTest {
     @Test
     void getPrice() {
         Item bucket = new FlowerBucket();
+        bucket = new PaperDecorator(bucket);
         assertEquals(13, bucket.getPrice());
     }
 }

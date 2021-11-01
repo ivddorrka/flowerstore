@@ -12,6 +12,6 @@ class CreditCardPaymentStrategyTest {
     void pay() {
         price = 500;
         ccreditstrategy = new CreditCardPaymentStrategy();
-        assertEquals("Credit card and price = 500", ccreditstrategy.pay(price));
+        assertEquals("Credit card and price = 500.0", ccreditstrategy.pay(price));
     }
 }

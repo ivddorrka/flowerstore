@@ -11,6 +11,6 @@ class PayPalPaymentStrategyTest {
     void pay() {
         price = 500;
         paypalstrategy = new PayPalPaymentStrategy();
-        assertEquals("PayPal and price = 500", paypalstrategy.pay(price));
+        assertEquals("PayPal and price = 500.0", paypalstrategy.pay(price));
     }
 }
