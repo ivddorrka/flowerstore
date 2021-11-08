@@ -9,8 +9,8 @@ class ReceiverTest {
     void getID() {
         Receiver aperson = new Receiver();
         Receiver bperson = new Receiver();
-        assertEquals(aperson.getnumbercard(), 0);
-        assertEquals(bperson.getnumbercard(), 1);
+        assertEquals(aperson.getnumbercard(), 2);
+        assertEquals(bperson.getnumbercard(), 3);
     }
 
 }
